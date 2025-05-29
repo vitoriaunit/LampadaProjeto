@@ -1,0 +1,19 @@
+body {
+    transition: background-color 0.3s ease;
+  }
+  
+  body.light-on {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body:not(.light-on) {
+    background-color: #111111;
+    color: #ffffff;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
